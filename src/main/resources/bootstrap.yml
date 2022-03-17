@@ -1,0 +1,16 @@
+server:
+    port: 8081
+spring:
+    security:
+        user:
+            name: nttdatosr
+            password: nttdatosd
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/rDelgC/BanSis-ConfigRepo.git
+                    username: nntdatos
+                    password: nttdatos
+                    search-paths: /
+                    default-label: "master"
